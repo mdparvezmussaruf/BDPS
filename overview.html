@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Overview</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Monthly Overview</h1>
+        <a href="index.html" class="back-btn">← Back to Home</a>
+    </header>
+
+    <div class="container">
+        <form id="overviewForm">
+            <label for="overviewBuyer">Buyer:</label>
+            <input type="text" id="overviewBuyer" required>
+
+            <label for="month">Month:</label>
+            <input type="number" id="month" min="1" max="12" required>
+
+            <label for="year">Year:</label>
+            <input type="number" id="year" required>
+
+            <button type="submit">Get Overview</button>
+        </form>
+        <div id="overviewResult"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
