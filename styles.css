@@ -6,16 +6,18 @@ body {
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
     background-color: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+    border-radius: 8px;
 }
 
 h1, h2 {
     color: #333;
+    text-align: center;
 }
 
 form {
@@ -25,11 +27,14 @@ form {
 
 label {
     margin-top: 10px;
+    font-weight: bold;
 }
 
 input, select, button {
     padding: 10px;
     margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 button {
@@ -37,15 +42,40 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 15px;
+    font-size: 16px;
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
+.transactions-section {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
 #overviewResult {
     margin-top: 20px;
     padding: 10px;
     background-color: #e9ecef;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
 }
