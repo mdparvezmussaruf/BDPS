@@ -9,6 +9,7 @@
 <body>
     <div class="container">
         <h1>Business Delivery and Payment System</h1>
+
         <div class="form-section">
             <h2>Add Transaction</h2>
             <form id="transactionForm">
@@ -30,6 +31,25 @@
                 <button type="submit">Add Transaction</button>
             </form>
         </div>
+
+        <div class="transactions-section">
+            <h2>Transactions</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Buyer</th>
+                        <th>Seller</th>
+                        <th>Amount</th>
+                        <th>Direction</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody id="transactionsTable">
+                    <!-- Transactions will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+
         <div class="overview-section">
             <h2>Monthly Overview</h2>
             <form id="overviewForm">
@@ -50,6 +70,7 @@
             <div id="overviewResult"></div>
         </div>
     </div>
+
     <script src="app.js"></script>
 </body>
 </html>
