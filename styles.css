@@ -114,3 +114,14 @@ table {
     border-color: rgb(189, 80, 80);
     text-align: center;
 }
+
+footer {
+    background-color: rgb(175, 174, 174) ;
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    bottom: 0; 
+    width: 100%;
+}
+
