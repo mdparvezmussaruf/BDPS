@@ -1,16 +1,12 @@
 /* General styles */
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  width: 100%;
-  padding: 0 10px;
-  background: linear-gradient(135deg, #323fb4 0%, #3b5da5 100%);
-  animation: fadeIn 1s ease-in-out;
-}
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     margin: 0;
+     padding: 0;
+ }
+
 
 header {
     background-color: #007BFF;
